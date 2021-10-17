@@ -19,7 +19,7 @@
             $name = htmlspecialchars($_POST['user_name']);
             $mail = htmlspecialchars($_POST['user_email']);
             $message = htmlspecialchars($_POST['user_message']);
-            $to = 'tacbusinesscl@gmail.com';
+            $to = 'example@gmail.com';
             $date = date("F j, Y, g:i a");
             $subject = "Test Mail ($date)";
             $header = "From: $name + $mail";
