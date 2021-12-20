@@ -1,0 +1,22 @@
+:root{
+    --bg-color:#fff;
+    --h2-color:#333;
+    --a-color:#1a73e8
+}
+body{
+    font-family: "Lato","Note Sans JP";
+}
+/*Text*/
+a,a:visited{
+    color: var(--a-color);
+}
+/*ol,ul,li,*/
+ul{
+    margin-left: 1.5em;
+}
+ul ul,ol ol{
+    margin-left: 1em;
+}
+.none{
+    display: none;
+}
