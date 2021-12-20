@@ -1,0 +1,8 @@
+.warn{
+    background-color: red;
+    padding:0.3rem 1rem;
+    color:#fff;
+}
+.warn a{
+    color: #fff;
+}
